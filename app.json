@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "7InTheWild",
+    "slug": "7InTheWild",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
