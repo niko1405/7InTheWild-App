@@ -3,8 +3,59 @@
     "name": "7InTheWild",
     "slug": "7InTheWild",
     "version": "1.0.0",
+    "scheme": "com.seveninthewild",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "splash": {
+      "image": "./app/assets/images/splashScreen.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seveninthewild",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5560593862063306~7759743043"
+      }
+    },
+    "android": {
+      "package": "com.seveninthewild",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5560593862063306~3936920243"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Die App benötigt den Zugriff auf deine Galerie."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./app/assets/images/textLogo.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7a438fd4-739c-4d13-8c77-af625c048f90"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/7a438fd4-739c-4d13-8c77-af625c048f90"
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3940256099942544~3347511713",
+    "ios_app_id": "ca-app-pub-3940256099942544~1458002511"
   }
 }

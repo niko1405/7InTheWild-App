@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "452701398904",
+    "project_id": "inthewild-5efd5",
+    "storage_bucket": "inthewild-5efd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452701398904:android:b472131ce850e5fb5fca8d",
+        "android_client_info": {
+          "package_name": "com.seveninthewild"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452701398904-1hpmc455vmh5h6347hqlev9pci10t92n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seveninthewild",
+            "certificate_hash": "fc54f5b89523c52cf74af7d254d01b4c96d9ddd5"
+          }
+        },
+        {
+          "client_id": "452701398904-6olssj45tfrql99jb2qjf7s2qd7ce195.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcj2p8OcF1i0CgnnUGPWOuHyr4ZPyPF1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452701398904-6olssj45tfrql99jb2qjf7s2qd7ce195.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "452701398904-nr5o5lhlrqc780b4bnv549sjuf0c2nnr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seveninthewild"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

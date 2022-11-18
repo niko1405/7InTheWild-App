@@ -1,21 +1,41 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import "react-native-gesture-handler";
+import "react-native-get-random-values";
+import { Provider } from "react-redux";
+import { Provider as MaterialProvider } from "@react-native-material/core";
+import { LogBox, StatusBar, StyleSheet, View } from "react-native";
+import "moment/min/moment-with-locales";
 
-export default function App() {
+import { ContextProvider } from "./app/contexts/ContextProvider";
+import { CustomProvider } from "./app/CustomProvider";
+import store from "./store";
+import AppStackNavigator from "./app/navigation/AppStack";
+import NetworkProvider from "./app/NetworkProvider";
+
+LogBox.ignoreLogs([
+  "EventEmitter.removeListener('url', ...): Method has been deprecated. Please instead use `remove()` on the subscription returned by `EventEmitter.addListener`.",
+]);
+
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ContextProvider>
+        <Provider store={store}>
+          <MaterialProvider>
+            <NetworkProvider>
+              <CustomProvider>
+                <AppStackNavigator />
+              </CustomProvider>
+            </NetworkProvider>
+            <StatusBar hidden={false} />
+          </MaterialProvider>
+        </Provider>
+      </ContextProvider>
     </View>
   );
-}
+};
+
+export default App;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  container: { position: "relative", padding: 0, flex: 1 },
 });

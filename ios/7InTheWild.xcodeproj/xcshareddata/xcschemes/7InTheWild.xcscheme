@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "7InTheWild.app"
-               BlueprintName = "7InTheWild"
-               ReferencedContainer = "container:7InTheWild.xcodeproj">
+               BuildableName = "seveninthewild.app"
+               BlueprintName = "seveninthewild"
+               ReferencedContainer = "container:seveninthewild.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "7InTheWildTests.xctest"
-               BlueprintName = "7InTheWildTests"
-               ReferencedContainer = "container:7InTheWild.xcodeproj">
+               BuildableName = "seveninthewildTests.xctest"
+               BlueprintName = "seveninthewildTests"
+               ReferencedContainer = "container:seveninthewild.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "7InTheWild.app"
-            BlueprintName = "7InTheWild"
-            ReferencedContainer = "container:7InTheWild.xcodeproj">
+            BuildableName = "seveninthewild.app"
+            BlueprintName = "seveninthewild"
+            ReferencedContainer = "container:seveninthewild.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "7InTheWild.app"
-            BlueprintName = "7InTheWild"
-            ReferencedContainer = "container:7InTheWild.xcodeproj">
+            BuildableName = "seveninthewild.app"
+            BlueprintName = "seveninthewild"
+            ReferencedContainer = "container:seveninthewild.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
