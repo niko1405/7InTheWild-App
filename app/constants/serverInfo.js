@@ -1,1 +1,1 @@
-export const host = "https://seveninthewild.herokuapp.com"; //"http://192.168.0.150:5000";
+export const host = "https://seveninthewild-backend.onrender.com"; //"http://192.168.0.150:5000";
