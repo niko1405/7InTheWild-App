@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">7InTheWild</string>
+  <string name="app_name">7InTheWild</string>
+  <string name="expo_runtime_version">exposdk:45.0.0</string>
 </resources>

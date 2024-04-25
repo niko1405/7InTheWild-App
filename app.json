@@ -4,9 +4,7 @@
     "slug": "7InTheWild",
     "version": "1.0.0",
     "scheme": "com.seveninthewild",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "splash": {
       "image": "./app/assets/images/splashScreen.png"
     },
@@ -25,9 +23,7 @@
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-5560593862063306~3936920243"
       },
-      "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ]
+      "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "plugins": [
       [
@@ -49,7 +45,9 @@
         "projectId": "7a438fd4-739c-4d13-8c77-af625c048f90"
       }
     },
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "updates": {
       "url": "https://u.expo.dev/7a438fd4-739c-4d13-8c77-af625c048f90"
     }

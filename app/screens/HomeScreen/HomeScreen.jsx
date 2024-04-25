@@ -71,7 +71,7 @@ const HomeScreen = ({ navigation }) => {
       params: { tabIndex: 1 },
     });
   };
-  console.log(user.pushToken);
+
   const handleNavigateFAQ = () => {
     navigation.navigate("FAQHome");
   };

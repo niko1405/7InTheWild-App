@@ -1,16 +1,11 @@
 import banner from "../assets/images/banner.png";
 import banner2 from "../assets/images/banner2.webp";
 import banner3 from "../assets/images/banner3.png";
-import banner4 from "../assets/images/banner4.png";
 import banner5 from "../assets/images/banner5.webp";
 import arrowDown from "../assets/images/arrowDown.png";
 import bannerStaffel1 from "../assets/images/bannerStaffel1.png";
 import bannerStaffel2 from "../assets/images/bannerStaffel2.png";
-import chatBackground from "../assets/images/chatBackground.png";
-import chatBackground2 from "../assets/images/chatBackground2.png";
-import chatBackground3 from "../assets/images/chatBackground3.png";
 import chatBackground4 from "../assets/images/chatBackground4.png";
-import chatBackground4Light from "../assets/images/chatBackground4Light.png";
 import deleteForever from "../assets/images/delete-forever.png";
 import exclamation from "../assets/images/exclamation.png";
 import placeholder from "../assets/images/imagePlaceholder.png";
@@ -59,16 +54,11 @@ export default {
   banner,
   banner2,
   banner3,
-  banner4,
   banner5,
   arrowDown,
   bannerStaffel1,
   bannerStaffel2,
-  chatBackground,
-  chatBackground2,
-  chatBackground3,
   chatBackground4,
-  chatBackground4Light,
   deleteForever,
   exclamation,
   placeholder,
