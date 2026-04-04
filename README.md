@@ -4,7 +4,7 @@ Eine mobile Fan-Community-App für die deutsche Survival-Show **7 vs. Wild**, ge
 
 ---
 
-## 🌿 Hintergrund
+## Hintergrund
 
 **7 vs. Wild** ist ein deutschsprachiges Survival-Format, in dem Teilnehmer allein oder in Teams mehrere Wochen in der Wildnis überleben müssen. Die Show hat innerhalb kürzester Zeit eine riesige Community aufgebaut.
 
@@ -14,7 +14,7 @@ Die App wurde als **Lernprojekt** entwickelt, mit dem Ziel, die gesamte Bandbrei
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Beschreibung |
 |---|---|
@@ -31,7 +31,7 @@ Die App wurde als **Lernprojekt** entwickelt, mit dem Ziel, die gesamte Bandbrei
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -69,7 +69,7 @@ Die App wurde als **Lernprojekt** entwickelt, mit dem Ziel, die gesamte Bandbrei
 
 ---
 
-## 🚀 Lokale Entwicklung
+## Lokale Entwicklung
 
 ### Voraussetzungen
 
