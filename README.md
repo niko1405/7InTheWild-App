@@ -18,18 +18,18 @@ Die App wurde als **Lernprojekt** entwickelt, mit dem Ziel, die gesamte Bandbrei
 
 | Feature | Beschreibung |
 |---|---|
-| 🏠 **Home** | Aktuelle Notifications, neueste Umfragen, Blog-Beiträge & YouTube-Videos auf einen Blick |
-| 🗳️ **Abstimmungen** | Favoriten-Abstimmung, tägliche Umfragen und Community-Abstimmungen (3-Tab-Ansicht) |
-| 💬 **Live-Chat** | Globaler Community-Chat sowie Direktnachrichten zwischen Nutzern in Echtzeit (Socket.io) |
-| 📰 **News** | Aktuelle Berichte und Social-Media-Inhalte rund um die Staffeln |
-| 📝 **Blog / Feed** | CMS-basierte Beiträge mit Tags, Filterung und Archiv (via Sanity.io) |
-| 👤 **Profile** | Öffentliche Nutzerprofile mit Avatar-Upload, Favoriten und Profilsuche |
-| 🔔 **Push-Benachrichtigungen** | Gezielte Benachrichtigungen mit automatischer Navigation zum Ziel-Screen |
-| 🌙 **Dark Mode** | Vollständiger Light-/Dark-Mode-Support, gespeichert im Nutzerprofil |
-| ⭐ **Premium** | Einmaliger Kauf (4,00 €, kein Abo) – entfernt alle Werbeanzeigen und schaltet Dark Mode frei |
-| 🔐 **Authentifizierung** | E-Mail/Passwort-Login sowie Google Sign-In (OAuth) |
-| 👻 **Anonymer Chat** | Nicht eingeloggte Nutzer erhalten eine UUID-basierte Session-ID für den Chat |
-| 📶 **Offline-Erkennung** | Automatische Fehlermeldung bei fehlender Internetverbindung |
+|  **Home** | Aktuelle Notifications, neueste Umfragen, Blog-Beiträge & YouTube-Videos auf einen Blick |
+|  **Abstimmungen** | Favoriten-Abstimmung, tägliche Umfragen und Community-Abstimmungen (3-Tab-Ansicht) |
+|  **Live-Chat** | Globaler Community-Chat sowie Direktnachrichten zwischen Nutzern in Echtzeit (Socket.io) |
+|  **News** | Aktuelle Berichte und Social-Media-Inhalte rund um die Staffeln |
+|  **Blog / Feed** | CMS-basierte Beiträge mit Tags, Filterung und Archiv (via Sanity.io) |
+|  **Profile** | Öffentliche Nutzerprofile mit Avatar-Upload, Favoriten und Profilsuche |
+|  **Push-Benachrichtigungen** | Gezielte Benachrichtigungen mit automatischer Navigation zum Ziel-Screen |
+|  **Dark Mode** | Vollständiger Light-/Dark-Mode-Support, gespeichert im Nutzerprofil |
+|  **Premium** | Einmaliger Kauf (4,00 €, kein Abo) – entfernt alle Werbeanzeigen und schaltet Dark Mode frei |
+|  **Authentifizierung** | E-Mail/Passwort-Login sowie Google Sign-In (OAuth) |
+|  **Anonymer Chat** | Nicht eingeloggte Nutzer erhalten eine UUID-basierte Session-ID für den Chat |
+|  **Offline-Erkennung** | Automatische Fehlermeldung bei fehlender Internetverbindung |
 
 ---
 
@@ -135,23 +135,23 @@ Solange läuft ein Fullscreen-Ladescreen. Bei Fehler erscheint ein Fehler-Screen
 
 ## Besondere Implementierungen
 
-### 🔔 Push-Benachrichtigungen
+### Push-Benachrichtigungen
 - Beim Login wird ein Expo Push-Token registriert und ans Backend übermittelt
 - Eingehende Benachrichtigungen navigieren automatisch zum Ziel-Screen via `navigationRef`
 - `AppState`-Listener setzt bei Hintergrundwechsel die `currentLocation` zurück (für serverseitiges Notification-Routing)
 
-### 📢 Werbeanzeigen (Google Mobile Ads)
+### Werbeanzeigen (Google Mobile Ads)
 - **Banner Ads** auf VotingScreen, PremiumScreen und weiteren Screens
 - **Interstitial Ads** im AppStack – erscheinen alle **6 Drawer-Navigationsschritte**
 - Beide Ad-Typen werden bei `user.premium === true` vollständig deaktiviert
 
-### 💬 Echtzeit-Chat (Socket.io)
+### Echtzeit-Chat (Socket.io)
 - Beim Betreten eines Chat-Screens wird ein Socket aufgebaut (`join-chat`)
 - Nachrichten werden über `send-msg-to-group` gesendet und via `msg-receive` empfangen
 - **Swipe-to-Reply**: Per Swipe-Geste auf eine Nachricht kann direkt geantwortet werden
 - Nicht eingeloggte Nutzer erscheinen als „Unbekannt" und werden über ihre `sessionId` (UUID) identifiziert
 
-### ⭐ Premium
+### Premium
 - Gesteuert über das `user.premium`-Flag im Backend
 - Vorteile: Keine Werbeanzeigen, Dark Mode freigeschaltet
 - Einmaliger Kauf, kein Abo (Implementierung noch ausstehend)
@@ -233,7 +233,7 @@ REACT_APP__SANITY_TOKEN=dein_sanity_token
 
 ---
 
-## 💡 Learnings
+## Learnings
 
 Dieses Projekt hat eine Menge wertvoller Erfahrungen mit sich gebracht:
 
